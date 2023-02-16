@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  * Description: A program that will use puts function
- * Return: 0(success)
+ * Return: Always 0 (success)
  */
 int main(0)
 {
