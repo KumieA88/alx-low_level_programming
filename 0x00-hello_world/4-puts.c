@@ -4,7 +4,7 @@
  * Description: A program that will use puts function
  * Return: Always 0 (success)
  */
-int main(0)
+int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
 
