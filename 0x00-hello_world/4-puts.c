@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
- * Entry point -A program that will use funtion puts
+ * main: A program that will use funtion puts
+ * Return: 0 (success)
 */
 int main(void)
 {
