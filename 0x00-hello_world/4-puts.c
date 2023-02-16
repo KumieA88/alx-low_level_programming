@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Description: A program that will use puts funtion
+ * Description: A program that will use puts function
  * Return: 0(success)
  */
 int main(0)
