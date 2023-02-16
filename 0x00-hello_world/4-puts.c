@@ -1,8 +1,13 @@
 #include <stdio.h>
+
 /**
- * main: A program that will use funtion puts
- * Return: 0 (success)
+ * main - Entry point
+ *
+ * Description: A program that will use puts function
+ *
+ * Return: Always 0 (success)
 */
+
 int main(void)
 {
 puts("\"Programming is like building a multilingual puzzle");
