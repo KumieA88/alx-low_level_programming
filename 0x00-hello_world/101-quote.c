@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
+ * main- Entry Point
  * Description: A program that prints to standard error
  * Return: Always 1 (Success)
  */
