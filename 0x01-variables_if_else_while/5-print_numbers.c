@@ -1,4 +1,3 @@
-#include<stdio.h>
 /**
  * main - print single digits numbers
  *
@@ -6,11 +5,12 @@
  */
 int main(void)
 {
-	int num;
+	int n;
 
-	for (num = 0; num < 10; num++)
-		printf("%d", num);
-		printf('\n');
+	for (n = 0; n < 10; n++)
+	printf("%d", n);
+
+	printf("n");
 
 	return (0);
 }
