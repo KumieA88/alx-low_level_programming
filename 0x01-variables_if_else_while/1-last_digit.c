@@ -15,22 +15,20 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 
 	lst_dgt = (n % 10);
-	if (lst_dgt == 0)
+	if ((n % 10) == 0)
 	{
 		printf("Last digit of %d is %d and is %s", n, lst_dgt, "0\n");
 	return (0);
 
 	}
 
-	lst_dgt = (n % 10);
-	if (lst_dgt < 6)
+	if ((n % 10) < 6)
 	{
 		printf("Last digit of %d is %d and id %s",
 		n, lst_dgt, "less than 6 and not 0\n");
 	}
 
-	lst_dgt = (n % 10);
-	if (lst_dgt > 5)
+	if ((n % 10) > 5)
 	{
 		printf("Last digit of %d is %d and is %s", n, lst_dgt, "greater than 5\n");
 
