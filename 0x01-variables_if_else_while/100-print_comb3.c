@@ -4,11 +4,12 @@
  * Return: Always 0
  */
 int main(void)
-}
+{
 	int f, q;
 
 	for (f = '0'; f < '9'; f++)
-	}
+	
+
 	for (q = f + 1; q <= '9'; q++)
 	{
 	if (q != f)
@@ -21,7 +22,7 @@ int main(void)
 	putchar(' ');
 	}
 	}
-	}
+	
 	putchar('\n');
-	return (0);
-}
+	
+}	return (0);
