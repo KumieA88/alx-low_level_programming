@@ -7,8 +7,8 @@ int main(void)
 {
 	int alp;
 
-	for (alp = 'z'; alp <= 'a'; alp++)
-		putchar(alp + '0');
+	for (alp = 'z'; alp >= 'a'; alp--)
+		putchar(alp);
 
 	putchar('\n');
 
