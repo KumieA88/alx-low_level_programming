@@ -1,4 +1,4 @@
-#include <stdio>
+#include <stdio.h>
 /**
  * main - program that prints all possible different combinations
  * Return: Always 0
