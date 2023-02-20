@@ -8,7 +8,7 @@ int main(void)
 	int f, q;
 
 	for (f = '0'; f < '9'; f++)
-	
+	{
 
 	for (q = f + 1; q <= '9'; q++)
 	{
@@ -16,13 +16,13 @@ int main(void)
 	{
 	putchar(f);
 	putchar(q);
-	if (f == '8' && q == '9)
-		continue;
+	if (f == '8' && q == '9')
+	continue;
 	putchar(',');
 	putchar(' ');
 	}
 	}
-	
 	putchar('\n');
-	
+	}
+
 }	return (0);
