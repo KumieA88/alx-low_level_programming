@@ -1,22 +1,24 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /**
  * main - program that prints all possible combinations of two two-digits
  * Return: Always 0
  */
 int main(void)
 {
-	int f, q;
+	int p, q;
 
-	for (f = 0; f <= 98; f++)
+	for (p = 0; p <= 98; p++)
 	{
-	for (q = f + 1; f <= 99; q++)
+	for (q = p + 1; q <= 99; q++)
 	{
-	putchar((f / 10) + '0');
-	putchar((f % 10) + '0');
+	putchar((p / 10) + '0');
+	putchar((p % 10) + '0');
 	putchar(' ');
-	putchar((q / 10) + '0');
-	putchar((q / 10) + '0');
-	if (f == 98 && q == 99)
+	putchar((p / 10) + '0');
+	putchar((p / 10) + '0');
+	if (p == 98 && q == 99)
 		continue;
 	putchar(',');
 	putchar(' ');
