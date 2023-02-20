@@ -3,7 +3,7 @@
 #include <stdio.h>
 /* more headers goes there */
 /**
- * main - Entry point
+ * main: Entry point
  * Return: Always 0 (success)
  */
 /* betty style doc for function main goes there */
@@ -14,7 +14,7 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
-	lst_dgt = (n % 10);
+	'lst_dgt' = (n % 10);
 	if ((n % 10) == 0)
 	{
 		printf("Last digit of %d is %d and is %s", n, lst_dgt, "0\n");
@@ -32,7 +32,7 @@ int main(void)
 	{
 		printf("Last digit of %d is %d and is %s", n, lst_dgt, "greater than 5\n");
 
-	return (0);
-
 	}
+	
+	return (o);
 }
