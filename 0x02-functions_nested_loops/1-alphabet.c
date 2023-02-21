@@ -1,16 +1,15 @@
 #include "main.h"
 /**
- * main - programe that prints the alphabet
- * Return: Always 0
+ * print_alphabet - program prints alphabets lettters
+ * Return: Always 0.
  */
-int main(void)
+void print_alphabet(void)
 {
-	int alp;
+	char alp;
 
 	for (alp = 'a'; alp <= 'z'; alp++)
-	_putchar(alp);
+		putchar(alp);
 
-	_putchar('\n');
+	putchar('\n');
 
-	return (0);
 }
