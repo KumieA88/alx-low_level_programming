@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * main - a program that prints Fizz buzz test
  * Return: 0 (success)
