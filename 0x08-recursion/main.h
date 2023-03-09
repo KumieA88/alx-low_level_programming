@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <unistd.h>
+#include <string.h>
 
 #ifndef MAIN_H
 #define MAIN_H
@@ -16,5 +17,6 @@ int actual_prime(int n, int i);
 int _putchar(char c);
 int wildcmp(char *s1, char *s2);
 int is_palindrome(char *s);
+int len_strlen(char s);
 
 #endif
